@@ -25,3 +25,8 @@ After iterating through all the numbers, the function returns the maximum differ
 # Assessments Q3 employees_select_query.sql
 
 query retrieves the rows from the employees table where the age is greater than 30 and the salary is greater than 50000. The result will include the id, name, age, and salary values for those rows that meet the specified conditions
+# Assessments Q4 
+The bug in the original code is that the average variable is declared as a double, but the total variable is declared as an int. This means that the total variable can only store integer values, and any decimal values will be truncated. This is why the output of the code is not correct.
+
+To fix the bug, we need to change the type of the total variable to double. This will allow the total variable to store decimal values, and the average variable will be calculated correctly.
+
