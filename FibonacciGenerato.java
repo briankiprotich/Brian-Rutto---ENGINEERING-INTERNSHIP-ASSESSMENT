@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FibonacciGenerator {
 
-    private static final int MAX_VALUE = 100; // The maximum value that the user can enter
+    private static final int MAX_VALUE = 10000; // The maximum value that the user can enter
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object to read user input
